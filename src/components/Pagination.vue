@@ -81,10 +81,6 @@ export default {
     },
 
     methods: {
-        onClickFirstPage() {
-            this.$emit('pagechanged', 1);
-        },
-        
         onClickPage(page) {
             this.$emit('pagechanged', page);
         },
