@@ -13,7 +13,7 @@
             </div>
         </a>
         <div class="img_container">
-            <img :src="post.urls.regular.self" :alt="post.alt_description">
+            <img :src="post.urls.regular" :alt="post.alt_description">
         </div>   
         <div class="views">
             <p>{{ post.likes }}</p>
